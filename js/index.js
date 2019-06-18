@@ -30,3 +30,12 @@ logo.addEventListener("click",function(){
     logo.textContent = "Fun Bus"
     }
     });
+
+
+const NameInput = document.querySelectorAll('input');
+const NameColor = (i)=>{
+    NameInput[i].addEventListener('keydown',()=>{
+    console.log('Key was pressed!');})
+    };
+NameColor(0);
+NameColor(1);
