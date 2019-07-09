@@ -12,6 +12,15 @@ navcolor(1);
 navcolor(2);
 navcolor(3);
 
+const navUncolor = (i)=>{
+    navLinks[i].addEventListener('mouseout',(event)=>{
+    event.target.style.color = 'black';})
+};
+navUncolor(0);
+navUncolor(1);
+navUncolor(2);
+navUncolor(3);
+
 const logo = document.querySelector(".logo-heading");
 // logo[0].addEventListener("click",function(){
 //     if(logo[0].textContent==="Fun Bus"){
